@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		050DDFD62209FFB900165437 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050DDFD52209FFB900165437 /* UIImage+Extensions.swift */; };
 		05DD72B52209A46900559F6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD72B42209A46900559F6F /* AppDelegate.swift */; };
 		05DD72B72209A46900559F6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD72B62209A46900559F6F /* ViewController.swift */; };
 		05DD72BA2209A46900559F6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05DD72B82209A46900559F6F /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		050DDFD52209FFB900165437 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		05DD72B12209A46900559F6F /* RGB Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RGB Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05DD72B42209A46900559F6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05DD72B62209A46900559F6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				05DD72B42209A46900559F6F /* AppDelegate.swift */,
+				050DDFD52209FFB900165437 /* UIImage+Extensions.swift */,
 				05DD72C62209A48900559F6F /* UIColor+Extensions.swift */,
 				05DD72B62209A46900559F6F /* ViewController.swift */,
 				05DD72B82209A46900559F6F /* Main.storyboard */,
@@ -141,6 +144,7 @@
 				05DD72B72209A46900559F6F /* ViewController.swift in Sources */,
 				05DD72C72209A48900559F6F /* UIColor+Extensions.swift in Sources */,
 				05DD72B52209A46900559F6F /* AppDelegate.swift in Sources */,
+				050DDFD62209FFB900165437 /* UIImage+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
