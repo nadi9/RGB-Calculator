@@ -15,8 +15,8 @@ extension UIColor {
         return (h: h, s: s, b: b, a: a)
     }
     
-    var isDark: Bool  {
-        return (self.hsba.h) > 0.5
+    var isLight: Bool  {
+        return (self.hsba.h) < 0.2
     }
 }
 extension UIColor {
